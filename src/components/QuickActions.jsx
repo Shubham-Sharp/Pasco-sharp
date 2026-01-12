@@ -4,7 +4,7 @@ export const QuickActions = () => {
     const actions = [
         { icon: "./icon-products.png", title: "Products", link: "#products" },
         { icon: "./icon-products.png", title: "Book a Machine", link: "#book" },
-        { icon: "./icon-products.png", title: "Book a Service", link: "#service" },
+        // { icon: "./icon-products.png", title: "Book a Service", link: "#service" },
         { icon: "./icon-products.png", title: "Book For Demo", link: "#demo" },
         { icon: "./icon-products.png", title: "Request a Price", link: "#price" },
     ];
@@ -12,7 +12,7 @@ export const QuickActions = () => {
     return (
         <div className="bg-[#262626] py-8 md:py-12">
             <div className="container mx-auto px-4">
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
                     {actions.map((action, index) => (
                         <a
                             key={index}

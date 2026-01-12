@@ -7,7 +7,7 @@ export const Header = () => {
         <div className="flex flex-col sm:flex-row gap-4">
           <a href="tel:+918076464635" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Phone className="h-4 w-4" />
-            <span>+91 8076464635</span>
+            <span>+971-558626579</span>
           </a>
           <a href="mailto:pasco@pascojcb.com" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Mail className="h-4 w-4" />

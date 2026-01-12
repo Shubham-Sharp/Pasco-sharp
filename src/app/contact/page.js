@@ -116,44 +116,39 @@ const Contact = () => {
                                         <MapPin className="h-6 w-6 mt-1 flex-shrink-0" />
                                         <div>
                                             <h3 className="font-semibold mb-1">Address</h3>
-                                            <p>123 Construction Avenue<br />Industrial District<br />City, State 12345</p>
+                                            <p>Meydan Grandstand<br />6th floor, Meydan Road <br />Nad Al Sheba, Dubai, United Arab Emirates</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start gap-4">
                                         <Phone className="h-6 w-6 mt-1 flex-shrink-0" />
                                         <div>
                                             <h3 className="font-semibold mb-1">Phone</h3>
-                                            <p>+1 (555) 123-4567</p>
-                                            <p>+1 (555) 765-4321</p>
+                                            <p>+971-558626579</p>
+                                            
                                         </div>
                                     </div>
                                     <div className="flex items-start gap-4">
                                         <Mail className="h-6 w-6 mt-1 flex-shrink-0" />
                                         <div>
                                             <h3 className="font-semibold mb-1">Email</h3>
-                                            <p>info@pascojcb.com</p>
-                                            <p>sales@pascojcb.com</p>
+                                    
+                                            <p>info@sharpedgeglobal.com</p>
                                         </div>
                                     </div>
                                     <div className="flex items-start gap-4">
                                         <Clock className="h-6 w-6 mt-1 flex-shrink-0" />
                                         <div>
                                             <h3 className="font-semibold mb-1">Business Hours</h3>
-                                            <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
-                                            <p>Sat: 9:00 AM - 4:00 PM</p>
-                                            <p>Sunday: Closed</p>
+                                            <p>Mon - Fri: 10:00 AM - 7:00 PM</p>
+                                            
+                                            <p>Saturday & Sunday: Closed</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             {/* Map Placeholder */}
-                            <div className="bg-gray-100 rounded-lg h-64 flex items-center justify-center border border-gray-300">
-                                <div className="text-center text-gray-500">
-                                    <MapPin className="h-12 w-12 mx-auto mb-2" />
-                                    <p>Map Location</p>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -169,10 +164,10 @@ const Contact = () => {
                         Our emergency support team is available 24/7 for urgent equipment needs
                     </p>
                     <a
-                        href="tel:+15559990000"
+                        href="tel:+971-558626579"
                         className="inline-block bg-white text-orange-600 font-semibold px-6 py-3 rounded-md shadow-md hover:bg-gray-100 transition"
                     >
-                        Call Emergency Line: +1 (555) 999-0000
+                        Call Emergency Line: +971-558626579
                     </a>
                 </div>
             </section>

@@ -9,7 +9,7 @@ export const Header = () => {
             <Phone className="h-4 w-4" />
             <span>+971-558626579</span>
           </a>
-          <a href="mailto:pasco@pascojcb.com" className="flex items-center gap-2 hover:text-primary transition-colors">
+          <a href="mailto:info@sharpedgeglobal.com@info@sharpedgeglobal.comjcb.com" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Mail className="h-4 w-4" />
             <span>info@sharpedgeglobal.com</span>
           </a>

@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Pasco Jcb Web",
-  description: "Pasco Jcb Web.",
+  title: "Sharp Edge Global",
+  description: "Sharp Edge Global",
 };
 
 export default function RootLayout({ children }) {

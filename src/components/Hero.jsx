@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 export const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        "https://preview--pasco-jcb-clone.lovable.app/assets/hero-construction-BI0CErwS.jpg",
+        "https://preview--info@sharpedgeglobal.com-jcb-clone.lovable.app/assets/hero-construction-BI0CErwS.jpg",
         "./hero-construction.jpg",
         "./hero-excavator.jpg",
     ];

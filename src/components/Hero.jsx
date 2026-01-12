@@ -5,7 +5,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 export const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [
-        "https://preview--info@sharpedgeglobal.com-jcb-clone.lovable.app/assets/hero-construction-BI0CErwS.jpg",
         "./hero-construction.jpg",
         "./hero-excavator.jpg",
     ];
@@ -31,7 +30,7 @@ export const Hero = () => {
                     <img
                         key={index}
                         src={slide}
-                        alt={`Slide ${index}`}
+                        // alt={`Slide ${index}`}
                         className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${index === currentSlide ? "opacity-100" : "opacity-0"
                             }`}
                     />
